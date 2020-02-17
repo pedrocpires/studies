@@ -28,7 +28,7 @@ function mostraOpcoes() {
     //     // process.exit(0);
     // });
 }
-// mostraOpcoes();
+mostraOpcoes();
 
 switch (opcaoCalc) {
     case 1:
