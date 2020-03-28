@@ -1,0 +1,170 @@
+/* ========== CSS para desenvolvimento => Apagar para entrega ========== */
+/* *{
+    border: 1px solid;
+    box-sizing: border-box;
+} */
+
+
+/* ========== Aqui inicia o CSS válido ========== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    margin: 0px;
+    /* border: 0px solid white; */
+}
+
+header {
+    background-color: white;
+    font-size: 18px;
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 47.31px;
+    position: fixed;
+}
+
+header ul li {
+    display: inline;
+}
+
+#header * {
+    display: inline;
+    vertical-align: middle;
+
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header .menu-item:hover {
+    text-decoration: underline;
+}
+
+.logo-conteiner {}
+
+.logo-conteiner img {
+    height: 47.31px;
+}
+
+.menu-conteiner {
+    float: right;
+    position: relative;
+    padding: 12.5px 0px;
+    vertical-align: middle;
+}
+
+.menu-item {
+    margin: 0px 50px;
+}
+
+.nav {}
+
+.home-content {
+    width: 100%;
+}
+
+.banner {
+
+    background-image: url('../img/banner.jpg');
+    width: 100%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    /* height: 500px; */
+    color: white;
+    font-weight: bold;
+    height: 100vh;
+
+
+}
+
+.banner p {
+    padding-top: 360px;
+    margin: 0px;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.banner h2 {
+    font-size: 36px;
+    margin: 15px 0px 0px 0px;
+
+}
+
+.button {
+    background-color: white;
+    border: 0px;
+
+}
+
+.button:hover {
+    background-color: #5e4a90;
+    color: white;
+    cursor: pointer;
+}
+
+#banner-button {
+    padding: 15px 35px;
+    border-radius: 50px;
+    font-size: 18px;
+    margin: 25px;
+}
+
+.products {
+    width: 92%;
+    margin: 25px auto;
+    overflow: hidden;
+}
+
+.product-box {
+    /* display: inline-block; */
+    width: 31.33%;
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 1% 1%;
+    float: left;
+    text-align: center;
+
+}
+#box1{
+    background-image: url('../img/product-1.png');
+}
+#box2{
+    background-image: url('../img/product-2.jpg');
+}
+#box3{
+    background-image: url('../img/product-3.jpg');
+}
+#box4{
+    background-image: url('../img/product-4.jpg');
+}
+#box5{
+    background-image: url('../img/product-5.jpg');
+}
+#box6{
+    background-image: url('../img/product-6.jpg');
+}
+#product-button{
+    text-align: center;
+    margin-top: 190px;
+    padding: 10px 30px;
+    font-size: 18px;
+}
+footer{
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    color: white;
+    background-color: #5e4a90;
+    text-align: center;
+    margin: 0px;
+}
+footer h4{
+    padding-top: 15px;
+    margin: 0px;
+}

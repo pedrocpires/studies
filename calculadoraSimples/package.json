@@ -1,0 +1,23 @@
+{
+  "name": "studies",
+  "version": "1.0.0",
+  "description": "Estudos fullStack",
+  "main": "index.js",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrocpires/studies.git"
+  },
+  "author": "Pedro Pires",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedrocpires/studies/issues"
+  },
+  "homepage": "https://github.com/pedrocpires/studies#readme"
+}

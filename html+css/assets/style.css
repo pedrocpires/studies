@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    min-height: 100vh;
+  }
+  
+  body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: all .3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  header {
+    height: 60px;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    -webkit-box-shadow: 0px -5px 20px 5px #000000bf;
+    -moz-box-shadow: 0px -5px 20px 5px #000000bf;
+    box-shadow: 0px -5px 20px 5px #000000bf;
+  }
+  
+  #logoContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #logoContainer  img {
+    height: 70px;
+  }
+  
+  header nav {
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    margin-right: 50px;
+    font-size: 20px;
+  }
+  
+  header nav a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  
+  #banner {
+    text-align: center;
+    height: 500px;
+    background-image: url('../assets/img/banner.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+  }
+  
+  #banner p {
+    font-size: 16px;
+    text-shadow: 0px 0px 2px #000;
+  }
+  
+  #banner h1 {
+    margin: 10px 0 15px 0;
+    text-shadow: 0px 0px 2px #000;
+  }
+  
+  #banner button {
+    height: 50px;
+    background-color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    border-radius: 25px;
+    transition: all .3s;
+  }
+  
+  #banner button:hover {
+    background-color: #972497;
+    color: #fff;
+  }
+  
+  #banner button:focus {
+    outline: none;
+  }
+  
+  #productsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+  }
+  
+  .product {
+    width: 350px;
+    height: 250px;
+    background-color: #000;
+    margin: 10px;
+    overflow: hidden;
+  }
+  
+  .product img {
+    height: 100%;
+  }
+  
+  .product button {
+    position: relative;
+    padding: 10px 15px;
+    border: none;
+    background-color: #fff;
+    border-radius: 15px;
+    bottom: 50px;
+    left: 110px;
+    cursor: pointer;
+    transition: all .3s;
+    font-size: 18px;
+  }
+  
+  .product button:focus {
+    outline: none;
+  }
+  
+  .product button:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  footer {
+    height: 100px;
+    background-color: #972497;
+    display: flex;
+    align-items: center;
+  }
+  
+  footer p {
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  /* about page */
+  #banner2 {
+    text-align: center;
+    height: 500px;
+    background-image: url('../assets/img/about-banner.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    height: 500px;
+  }
+  
+  #videoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 120px;
+    text-align: justify;
+  }
+  
+  #videoContainer video {
+    height: 400px;
+    width: 600px;
+  }
+  
+  #audioContainer {
+    height: 120px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #audioContainer audio:focus {
+    outline: none;
+  }
+  
+  /* contact page */
+  #main {
+    /* 
+    the height is calculated 
+    considering the fixed header
+    and the footer heigh
+    */
+    height: calc(100vh - 100px);
+    /*
+      the margin-top propertie is
+      calculated considering the header
+      heigh
+    */
+    margin-top: 60px;
+    background-image: url("../assets/img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #contactContainer {
+    margin-top: 20px;
+    height: 500px;
+    width: 400px;
+    background-color: #ffffffdd;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px;
+    border: 1px solid #972497;
+  }
+  
+  #contactContainer form {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+  }
+  
+  #contactContainer input {
+    height: 35px;
+    padding: 0 15px;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
+    border: 1px solid #972497;
+  }
+  
+  #contactContainer .message {
+    height: 180px;
+    border: 1px solid #972497;
+    resize: none;
+    border-radius: 15px;
+    padding: 20px 15px;
+  }
+  #contactContainer .message:focus {
+    outline: none;
+  }
+  
+  #contactContainer input:focus {
+    outline: none;
+  }
+  
+  #submitContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #submitContainer p {
+    flex: 1;
+    justify-self: left;
+    margin-left: 10px;
+  }
+  
+  #submitContainer input[type=checkbox] {
+    align-self: center;
+    background-color: #fff;
+    flex: .2;
+    align-self: center;
+    height: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  #submitContainer input[type=checkbox]:focus {
+    outline: none;
+  }
+  
+  #submitContainer button {
+    height: 35px;
+    padding: 0 15px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    background-color: #972497;
+    color: #fff;
+    font-size: 18px;
+    transition: all .3s;
+  }
+  
+  #submitContainer button:focus {
+    outline: none;
+  }
+  
+  #submitContainer button:hover {
+    background-color: #000;
+    color: #fff;
+  }

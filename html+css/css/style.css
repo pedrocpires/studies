@@ -1,0 +1,129 @@
+/*
+width,
+height,
+display: inline-block,
+margin,
+padding,
+
+
+*/
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+#header {
+    border-bottom: 1px solid;
+}
+
+#header * {
+    display: inline-block;
+}
+
+#header h1 {
+    font-size: 16px;
+}
+
+#header img {
+    width: 70px;
+}
+
+#header ul {
+    float: right;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+#header ul li {
+    width: 120px;
+    text-align: center;
+}
+
+#banner {
+    text-align: center;
+    height: 500px;
+    background-image: url('../img/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#fff;
+    font-weight: bold;
+}
+
+#banner h2{
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+#banner button{
+    background-color: #fff;
+    border: none;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 50px;
+}
+
+#banner button:hover, .box button:hover{
+    background-color: purple;
+    color: #fff;
+    cursor: pointer;
+}
+
+#banner p {
+    padding-top: 240px;
+}
+
+footer {
+    background-color: #5f4a90;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0 5px 0;
+}
+
+.box {
+    width: 327px;
+    height: 300px;
+    float: left;
+    margin: 20px;
+    background-size: cover;
+}
+
+.box button{
+    background-color: #fff;
+    border: none;
+    text-transform: uppercase;
+    padding: 10px 30px 10px 30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#box1{
+    background-image: url(../img/product-1.jpg);
+}
+#box2{
+    background-image: url(../img/product-2.jpg);
+}
+#box3{
+    background-image: url(../img/product-3.jpg);
+}
+#box4{
+    background-image: url(../img/product-4.jpg);
+}
+#box5{
+    background-image: url(../img/product-5.jpg);
+}
+#box6{
+    background-image: url(../img/product-6.jpg);
+}
+
+section{
+    overflow: hidden;
+    text-align: center;
+}
+
+.linha{
+    width: 1104px;
+    margin: 0 auto;
+
+}
